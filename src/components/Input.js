@@ -14,7 +14,7 @@ class Input extends React.Component {
       price: this.state.price,
     };
     const response = await axios.post(
-      `https://61c7309d9031850017547339.mockapi.io/shoes`,
+      `https://6377843f5c477765121fffdd.mockapi.io/shoe/`,
       shoes
     );
     return this.props.onCreate(response.data);

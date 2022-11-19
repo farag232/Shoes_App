@@ -15,7 +15,7 @@ export default class App extends Component {
 
   getData = async () => {
     const res = await axios.get(
-      "https://61c7309d9031850017547339.mockapi.io/shoes"
+      "https://6377843f5c477765121fffdd.mockapi.io/shoe/"
     );
     this.setState({ data: res.data, originalData: res.data });
   };
@@ -33,7 +33,7 @@ export default class App extends Component {
       price: this.state.price,
     };
     const response = await axios.post(
-      `https://61c7309d9031850017547339.mockapi.io/shoes`,
+      `https://63737d12348e9472990dd266.mockapi.io/shoes`,
       shoes
     );
     this.setState((state) => {

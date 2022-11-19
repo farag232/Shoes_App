@@ -13,7 +13,7 @@ class Shoes extends React.Component {
 
   handleDelete = async () => {
     await axios.delete(
-      `https://61c7309d9031850017547339.mockapi.io/shoes/${this.props.id}`
+      `https://6377843f5c477765121fffdd.mockapi.io/shoe/${this.props.id}`
     );
     return this.props.onclick(this.props.id);
   };
@@ -44,7 +44,7 @@ class Shoes extends React.Component {
     };
 
     await axios.put(
-      `https://61c7309d9031850017547339.mockapi.io/shoes/${this.props.id}`,
+      `https://6377843f5c477765121fffdd.mockapi.io/shoe/${this.props.id}`,
       shoes
     );
     this.setState({ isOn: false });

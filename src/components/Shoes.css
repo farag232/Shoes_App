@@ -3,15 +3,21 @@
     width: max-content;
     margin: 1rem;
     display: flex;
-    border-radius: 1rem;
-    height: 35vh;
+    border-radius: 2rem;
+    height: 45vh;
+  }
+  .shoes-card:hover{
+    color: aqua;
   }
   
   .image {
     width: 20vw;
     height: 35vh;
     object-fit: cover;
-    border-radius: 0.9rem;
+    border-radius: 0.8rem;
+  }
+  .image:hover{
+    color: brown;
   }
   
   .content {
@@ -36,10 +42,11 @@
   
   .content > button {
     color: white;
-    background-color: rgba(0, 0, 0, 0.788);
+    background-color: rgba(6, 134, 91, 0.788);
     border: none;
     border-radius: 0.4rem;
   }
+  
   
   .input-container {
     display: grid;
@@ -64,7 +71,7 @@
     border-radius: 0.1rem;
     border: none;
     box-shadow: 0.3rem 0.3rem 1rem black;
-    background-color: rgb(45, 82, 83);
+    background-color: rgb(141, 240, 243);
     border-radius: 0.4rem;
     font-weight: bold;
     color: white;
@@ -72,7 +79,7 @@
   
   .input-container > label {
     color: white;
-    background-color: rgb(45, 82, 83);
+    background-color: rgb(10, 235, 243);
     width: max-content;
     padding: 0.2rem;
     font-weight: bold;
